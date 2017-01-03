@@ -1,0 +1,6 @@
+* deploying to a root domain (`https://www.mydomain.com/`) will work fine, but not to any sub-domain (`https://www.mydomain.com/subdomain/').
+
+This leaves the issue of subdomains.  We are going to assume a sub-domain of `wonderwall`.  This stuff is a bit iffy as I'm sure there must be a better way, however these are the required changes:
+* modify `app.js` to set a `basename` on the `browserHistory` as explained in [this issue](https://github.com/ReactTraining/react-router/issues/353);
+*  add a `publicPath` to the `output` element of `webpack.config.js`;
+* modify the `.htaccess` file so that its root is actually the subdomain root;

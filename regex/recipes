@@ -1,0 +1,6 @@
+All non-line break characters:
+.*
+
+All characters including line breaks:
+[\s\S]*
+

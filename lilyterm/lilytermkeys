@@ -1,0 +1,22 @@
+<Ctrl><>            Disable/Enable hyperlinks, function keys and right click menu for temporary.
+<Ctrl><T>           Add a New tab with current directory.      
+<Ctrl><PgUp/PgDn>   Switch to Prev/Nexttab.      
+<Ctrl><Home/End>    Switch to First/Last tab.       
+<Ctrl><[/]>         Move current tab Forward/Backward.       
+<Ctrl><Up/Down>     Move current tab to First/Last.     
+<Ctrl><F1~F12>      Switch to 1st ~ 12th tab.       
+<Ctrl><O>           Select all the text in the Vte Terminal box.
+<Ctrl><+/-/Enter>   Increase/Decrease/Reset the font size of current tab.
+<Alt><F11/Enter>    Switch between fullwindow/unfullwindow and fullscreen/unfullscreen state.      
+<Shift><Left/Right> Emulate a mouse Scroll Up/Down event on Vte Terminal box.
+<Shift><Up/Down>    Asks to scroll Up/Down 1 line on Vte Terminal box.       
+<Shift><PgUp/PgDn>  Asks to scroll Up/Down on Vte Terminal box.       
+<Ctrl><Delete/Insert>   Copy the text to clipboard / Paste the text in clipboard.       
+<Shift><Delete/Insert>  Copy the text to primary clipboard / Paste the text in primary clipboard. i.e. Emulate a middle button mouse click to copy/paste the text.      
+
+Some key bindings that disabled by default but maybe useful:       
+<Ctrl><Q>   Close current tab.        Using <Ctrl><D> or exit to close tabs is recommended.       
+<Ctrl><N>   Open a new window with current directory.
+<Ctrl><E>   Rename the current tab.
+
+(https://github.com/Tetralet/LilyTerm))

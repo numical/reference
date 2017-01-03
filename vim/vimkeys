@@ -1,0 +1,90 @@
+VIM keys:
+
+ACTION + LOCATION + CONTEXT
+
+Mode:
+    ESC/CTRL+[ : command mode
+    
+    
+Move:
+    h : left
+    j : down
+    k : up 
+    l : right
+    w : next word
+    b:  back a word
+    e : end of word / next word
+    b : beginning of word / next word
+    0 : beginning of line
+    $ : end of line
+    gg : begining of file
+    G : end of file
+    :/G + num : line num
+    + : beginning of next line
+    - beginning of previous line
+    CTRL + u : page up
+    CTRL + d : page down
+    z then RETURN : current line goes to top of screen
+    CTRL + w : switch between windows
+
+Edit :
+    i : insert text before cursor
+    a : append text after cursor
+    I : insert text at beginning of line
+    A : insert text at end of line
+    x : delete under cursor
+    X : delete left of cursor
+    r : replace under cursor
+    C : replace characters on line
+    c : change + other movement characters
+    d : delete + other movement characters
+        w : word
+        d : line
+    o : insert line
+    cit: change insert tags
+    ci{: change inside curly braces
+    ci": change inside "
+
+
+Cut'n'Paste
+    v: visual mode
+    Shift + v : visual line mode
+    y: yank (or can use delete)
+    yy: yank entire line
+    p : paste
+
+
+Indenting
+    >> : indent
+    << : unindent
+    N<< or N>> : for the next N lines
+    gg=G: autoindent entire file
+    N== : autoindent N lines
+
+Search:
+    f : character search
+    * : find next of word under cursor
+    # : find previous of work under cursor
+    / : search for text/reg-exp
+        n for next
+    % : matching parenthesis
+
+Replace:
+   :%s/before/after/gc : search whole doc and confirm all
+
+Buffers:
+    edit xxx : open new buffer
+    bd : delete existing buffer
+
+
+Commands:
+    . : repeat
+    u : undo
+    CTRL+R : redo
+
+
+Program:
+    :q : quit
+    :w : save
+
+

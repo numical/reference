@@ -1,0 +1,8 @@
+
+
+Reset local to remote:
+git fetch --all
+git reset --hard origin/master
+
+Back out last commit (before a push):
+git reset --soft HEAD~1

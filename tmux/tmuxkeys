@@ -1,0 +1,24 @@
+PROGRAM
+tmux : new session
+tmux attach -t N : attach to session N
+tmux detach : detach from current session
+tmux kill-session -t N : kill session N
+tmux ls : list current sessions
+
+WINDOW (all PREFIX + ... )
+c : new window
+& : kill window
+N : switch to window N
+, : rename window
+
+PANES (all PREFIX + ... )
+% : new pane (horizontal)
+" : new pane (vertical)
+x : kill pane
+! : kill other panes
+z : toggle full screen
+arrows : move between 
+CTRL + o : cycle panes
+PREFIX hold + arrows : resize
+
+

@@ -1,0 +1,7 @@
+# TODO
+
+bind D source-file ~/tools/tmux/devsetup
+
+unbind C-b
+set -g prefix M-Space
+bind-key M-Space send-prefix
